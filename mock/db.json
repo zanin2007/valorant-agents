@@ -1,0 +1,132 @@
+{
+  "agents": [
+    {
+      "id": 1,
+      "name": "Jett",
+      "role": "Duelist",
+      "origin": "South Korea",
+      "portrait": "/images/Vertical_jett.webp",
+      "skills": [
+        {
+          "key": "C",
+          "name": "Cloudburst",
+          "desc": "짧은 시간 스모크 구름을 만든다."
+        },
+        { "key": "Q", "name": "Updraft", "desc": "상승한다." },
+        { "key": "E", "name": "Tailwind", "desc": "빠르게 대시 이동한다." },
+        { "key": "X", "name": "Blade Storm", "desc": "정확한 단검 던지기." }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Phoenix",
+      "role": "Duelist",
+      "origin": "United Kingdom",
+      "portrait": "/images/phoenix.png",
+      "skills": [
+        { "key": "C", "name": "Blaze", "desc": "불의 벽 생성" },
+        { "key": "Q", "name": "Curveball", "desc": "휘는 섬광탄" },
+        { "key": "E", "name": "Hot Hands", "desc": "불덩이를 던져 피해" },
+        { "key": "X", "name": "Run It Back", "desc": "사망 시 위치 복귀" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Reyna",
+      "role": "Duelist",
+      "origin": "Mexico",
+      "portrait": "/images/reyna-full.webp",
+      "skills": [
+        { "key": "C", "name": "icon", "desc": "시야를 흐리게 한다." },
+        { "key": "Q", "name": "Devour", "desc": "적 처치 시 체력 회복" },
+        { "key": "E", "name": "Dismiss", "desc": "투명 상태가 된다." },
+        {
+          "key": "X",
+          "name": "Empress",
+          "desc": "상대방이 잘보이고 공격속도가 증가하며 QE를 무한으로 쓸 수 있다"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Neon",
+      "role": "Duelist",
+      "origin": "Philippines",
+      "portrait": "/images/neon-full.png",
+      "skills": [
+        { "key": "C", "name": "Relay Bolt", "desc": "굴절하는 전격" },
+        { "key": "Q", "name": "Fast Lane", "desc": "전진하는 전기 벽" },
+        { "key": "E", "name": "High Gear", "desc": "이동 속도 증가" },
+        { "key": "X", "name": "Overdrive", "desc": "정밀 전기 빔 사용" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Yoru",
+      "role": "Duelist",
+      "origin": "Japan",
+      "portrait": "/images/yoru-full.webp",
+      "skills": [
+        { "key": "C", "name": "Fakeout", "desc": "분신 생성" },
+        { "key": "Q", "name": "Blindside", "desc": "벽 튀기는 섬광" },
+        { "key": "E", "name": "Gatecrash", "desc": "텔레포트 전진" },
+        { "key": "X", "name": "Dimensional Drift", "desc": "투명 상태로 이동" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Iso",
+      "role": "Duelist",
+      "origin": "China",
+      "portrait": "/images/iso-full.png",
+      "skills": [
+        {
+          "key": "C",
+          "name": "Undertow)",
+          "desc": "방벽을 앞으로 내보내 총알을 막습니다"
+        },
+        {
+          "key": "Q",
+          "name": "Contingency",
+          "desc": "적중한 모든 적에게 약화 효과를 부여하며, 벽을 관통할 수 있습니다"
+        },
+        {
+          "key": "E",
+          "name": "Double Tap",
+          "desc": "적을 처치하면 생성되는 구슬을 쏘아 자신을 보호하는 보호막을 만듭니다. "
+        },
+        {
+          "key": "X",
+          "name": "Kill Contract",
+          "desc": "상대방을 다른 차원으로 끌어들여 1대1 결투를 벌입니다. "
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Raze",
+      "role": "Duelist",
+      "origin": "Brazil",
+      "portrait": "/images/raze-full.png",
+      "skills": [
+        { "key": "C", "name": "Boom Bot", "desc": "봇 발사" },
+        { "key": "Q", "name": "Blast Pack", "desc": "폭발 팩 설치" },
+        { "key": "E", "name": "Paint Shells", "desc": "파편 폭탄" },
+        { "key": "X", "name": "Showstopper", "desc": "로켓 발사" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Waylay",
+      "role": "Duelist",
+      "origin": "Thailand",
+      "portrait": "/images/waylay-full.png",
+      "skills": [
+        { "key": "C", "name": "Slow", "desc": "이동 속도 저하 효과" },
+        { "key": "Q", "name": "Cling", "desc": "표면 부착" },
+        { "key": "E", "name": "Conceal", "desc": "은폐 상태" },
+        { "key": "X", "name": "Assault", "desc": "강력한 공격" }
+      ]
+    }
+  ]
+}

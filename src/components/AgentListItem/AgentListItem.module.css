@@ -1,0 +1,40 @@
+.card {
+  background: var(--card);                              /* 카드 배경색 (다크모드 대응 변수) */
+  border: 1px solid var(--card-border);                 /* 카드 외곽선 (변수 사용) */
+  border-radius: var(--radius);                         /* 카드 둥근 모서리 (전역 변수) */
+  overflow: hidden;                                     /* 내부 요소가 넘치지 않도록 */
+  display: flex;                                        /* 수직 배치를 위한 flex 사용 */
+  flex-direction: column;                              /* 위아래 정렬 */
+  cursor: pointer;                                      /* 마우스 오버 시 손가락 커서 */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;/* hover 애니메이션 */
+  text-decoration: none;                                /* 링크 밑줄 제거 */
+  color: inherit;                                       /* 부모 텍스트 색상 상속 */
+}
+
+.card:hover {
+  transform: translateY(-4px);                          /* 마우스 올렸을 때 위로 살짝 이동 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);            /* 그림자 추가 */
+}
+
+.portrait {
+  width: 100%;                                          /* 가로 100% 꽉 채움 */
+  height: 600px;                                        /* 세로 고정 크기 */
+  object-fit: cover;                                    /* 중앙 기준으로 꽉 채우기 (잘릴 수 있음) */
+}
+
+.info {
+  padding: 12px 16px;                                   /* 텍스트 영역 내부 여백 */
+}
+
+.name {
+  font-size: 1.2rem;                                    /* 이름 크기 */
+  font-weight: bold;                                    /* 이름 굵게 */
+  margin: 0 0 6px 0;                                    /* 아래 여백만 6px */
+}
+
+.meta {
+  display: flex;                                        /* 역할/출생지 좌우 배치 */
+  justify-content: space-between;                      /* 양 끝 정렬 */
+  font-size: 0.9rem;                                    /* 작게 */
+  color: var(--muted);                                  /* 흐릿한 색 (전역 변수) */
+}

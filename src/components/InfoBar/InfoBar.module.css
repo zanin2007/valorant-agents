@@ -1,0 +1,17 @@
+.wrap {
+  width: 100%;                         /* 부모 너비를 모두 차지 */
+  display: flex;                       /* 내부 요소들을 가로로 정렬 */
+  justify-content: space-between;     /* 양쪽 끝에 요소 배치 (좌/우 정보) */
+  gap: 8px;                            /* 요소 간 간격 */
+  font-weight: 600;                   /* 텍스트 굵게 (라벨 포함 전체) */
+}
+
+.item {
+  display: flex;                       /* 라벨과 값 한 줄에 배치 */
+  gap: 6px;                            /* 라벨과 값 사이 간격 */
+  color: var(--muted);                /* 흐릿한 색상 (라벨 텍스트용) */
+}
+
+.value {
+  color: var(--text);                 /* 실제 값은 일반 텍스트 색상 */
+}
