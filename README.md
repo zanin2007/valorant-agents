@@ -98,8 +98,7 @@
 }
 ```
 - 각각에 캐릭터에 배경이 된 css제작은 
-[CSS Gradient](https://cssgradient.io/)라는 곳에서 제작 직접 설정하며 제작 하였다.
-
+[CSS Gradient](https://cssgradient.io/)라는 곳에서 제작 직접 설정하며 제작 하였다!
 
 
 
